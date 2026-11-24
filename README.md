@@ -141,6 +141,7 @@ module "ise" {
 | [ise_repository.repository](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/repository) | resource |
 | [ise_tacacs_command_set.tacacs_command_set](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/tacacs_command_set) | resource |
 | [ise_tacacs_profile.tacacs_profile](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/tacacs_profile) | resource |
+| [ise_trusted_certificate.trusted_certificate](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/trusted_certificate) | resource |
 | [ise_trustsec_egress_matrix_cell.trustsec_egress_matrix_cell](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/trustsec_egress_matrix_cell) | resource |
 | [ise_trustsec_egress_push_matrix.push_auto](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/trustsec_egress_push_matrix) | resource |
 | [ise_trustsec_ip_to_sgt_mapping.trustsec_ip_to_sgt_mapping](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/trustsec_ip_to_sgt_mapping) | resource |

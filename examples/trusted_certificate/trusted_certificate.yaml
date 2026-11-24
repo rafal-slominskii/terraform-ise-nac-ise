@@ -1,0 +1,28 @@
+---
+ise:
+  certificates:
+    trusted_certificates:
+      - name: NaC Example Root CA
+        description: Public demonstration CA; replace with your organization CA
+        trust_for_ise_auth: true
+        trust_for_client_auth: true
+        certificate_pem: |
+          -----BEGIN CERTIFICATE-----
+          MIIDBTCCAe2gAwIBAgIUFW3V1zS34QVZ0OXZA6gXNbmqEWgwDQYJKoZIhvcNAQEL
+          BQAwKjEoMCYGA1UEAwwfTmFDIFRydXN0ZWQgQ2VydGlmaWNhdGUgVGVzdCBDQTAe
+          Fw0yNjExMjIxNTI2MzNaFw0zNjExMjAxNTI2MzNaMCoxKDAmBgNVBAMMH05hQyBU
+          cnVzdGVkIENlcnRpZmljYXRlIFRlc3QgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+          DwAwggEKAoIBAQDAPdKG4zZ883uHa1rn0I2xn1o89p7y3PkWKzMkBbHQmGenUZo+
+          BgKj9tBbqdEo8ofSFGOZQme1izxIImRU6CF9IsQNiTdkvuBA/AAWN6wkgCH+NfWI
+          TkbTl873n/fcK3uL7z8PdygCNM9d9jYLSP0YnJJ3aY1i9jkpZv7x1uhcdq51SZC1
+          EMJFyARoYPQZUFSSixMqmazcO5jvAK0muo6Z5gd8eVnrSt6v8f7L8rv6tZeXFpgc
+          qCPCC71LzsEnr+yfpgBSSBvepi2iI3p/MZrptnbHRAqbUrGyt/X83kDn43YJjDBe
+          Wpea75M2/xtWkQgiD8T4e2rDC6HMiRs8pG+rAgMBAAGjIzAhMA8GA1UdEwEB/wQF
+          MAMBAf8wDgYDVR0PAQH/BAQDAgGGMA0GCSqGSIb3DQEBCwUAA4IBAQBnSP0PPcb1
+          +/d9GUZsQOexm8t56ySgRF/Yz8ag6De7id5ihdIO8+XR/d4zeCo38MKn0GoJnJ9w
+          AVQx41zmDIHrnwYJ+wHma4BVArliieebrIIUYOBV4GyqPD9VyrRLz/ZbQcPbgBQR
+          Jh8zYqvu16IH3S8RKcOh4vXP77/dhXg/3w74QCXyO4w1UPB6fyOKTIDc7T9cvIBp
+          SBCB0VvewwtlZAMX7HP+eB67yUCjYyjTovRB/muPeoCne4y6cN2aMA6ktDFVnQQ2
+          gV2IBAgr8uqS9xF99c6sE9UTtBbWNp5TeiRLKRzmqej7KMSbaEmvZfxi6+Wl5gBG
+          ROCYO7TFKcbp
+          -----END CERTIFICATE-----
