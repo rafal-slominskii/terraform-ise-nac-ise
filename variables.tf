@@ -21,3 +21,12 @@ variable "write_default_values_file" {
   type        = string
   default     = ""
 }
+
+variable "system_certificate_private_keys" {
+  description = "Private keys for the system certificate deployment, keyed by node FQDN and eap. Increment private_keys_wo_version in the data model when keys change. Passed only to write-only provider inputs."
+  type        = map(string)
+  default     = {}
+  nullable    = false
+  sensitive   = true
+  ephemeral   = true
+}

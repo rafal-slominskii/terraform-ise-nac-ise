@@ -12,6 +12,10 @@ defaults:
         allow_out_of_date_cert: false
         allow_sha1_certificates: false
         validate_certificate_extensions: true
+      system_certificate_deployment:
+        timeout_seconds: 1800
+        nodes:
+          eap: false
     system:
       licenses:
         status: ENABLED

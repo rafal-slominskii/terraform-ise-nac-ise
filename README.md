@@ -53,6 +53,7 @@ module "ise" {
 | Name | Description | Type | Default | Required |
 | ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_model"></a> [model](#input\_model) | As an alternative to YAML files, a native Terraform data structure can be provided as well. | `map(any)` | `{}` | no |
+| <a name="input_system_certificate_private_keys"></a> [system\_certificate\_private\_keys](#input\_system\_certificate\_private\_keys) | Private keys for the system certificate deployment, keyed by node FQDN and eap. Increment private\_keys\_wo\_version in the data model when keys change. Passed only to write-only provider inputs. | `map(string)` | `{}` | no |
 | <a name="input_write_default_values_file"></a> [write\_default\_values\_file](#input\_write\_default\_values\_file) | Write all default values to a YAML file. Value is a path pointing to the file to be created. | `string` | `""` | no |
 | <a name="input_yaml_directories"></a> [yaml\_directories](#input\_yaml\_directories) | List of paths to YAML directories. | `list(string)` | `[]` | no |
 | <a name="input_yaml_files"></a> [yaml\_files](#input\_yaml\_files) | List of paths to YAML files. | `list(string)` | `[]` | no |
@@ -139,6 +140,7 @@ module "ise" {
 | [ise_network_device_group.network_device_group_4](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/network_device_group) | resource |
 | [ise_network_device_group.network_device_group_5](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/network_device_group) | resource |
 | [ise_repository.repository](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/repository) | resource |
+| [ise_system_certificate_deployment.system_certificate_deployment](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/system_certificate_deployment) | resource |
 | [ise_tacacs_command_set.tacacs_command_set](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/tacacs_command_set) | resource |
 | [ise_tacacs_profile.tacacs_profile](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/tacacs_profile) | resource |
 | [ise_trusted_certificate.trusted_certificate](https://registry.terraform.io/providers/CiscoDevNet/ise/latest/docs/resources/trusted_certificate) | resource |
